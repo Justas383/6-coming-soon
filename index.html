@@ -1,52 +1,88 @@
-  
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>coming soon</title>
-    <link rel="stylesheet" href="./css/reset.css" >
-    <link rel="stylesheet" href="./css/layout.css" >
-
-    <link rel="stylesheet" href="./css/button.css" >
-    <link rel="stylesheet" href="./css/clock.css" >
-    <link rel="stylesheet" href="./css/forms.css" >
-    <link rel="stylesheet" href="./css/mouse.css" >
-    <link rel="stylesheet" href="./css/progressBars.css" >
-    
-    <link rel="stylesheet" href="./css/custom.css" >
-
-   
-
+    <title>Coming soon</title>
+    <!-- reset/main -->
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    <!-- 3rd party components -->
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <!-- your components -->
+    <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./css/clock.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./css/mouse.css">
+    <link rel="stylesheet" href="./css/progress-bar.css">
+    <!-- custom -->
+    <link rel="stylesheet" href="./css/custom.css">
 </head>
 
 <body>
-  <div class="container bg-main-color"> 
+    <div class="hero container bg-main-color">
         <div class="row-short">
-            HERO
+            <img src="./img/logo.png" alt="Logo">
+            <h1>Coming soon</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ab? Illo cupiditate similique quam odit.</p>
+            <div class="clock">
+                CLOCK
+            </div>
+            <form class="form">
+                SUBSCRIBE FORM
+            </form>
+            <div class="mouse">
+                MOUSE
+            </div>
         </div>
-  </div>
-
-  <main class="container">
-       <div class="row-long columns">
+    </div>
+    <main class="container">
+        <div class="row-long columns">
             <div class="left">
-                    Left content
+                <h2>About startup</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta magnam molestias aperiam alias tempora error <a href="#">Matrox</a> velit nesciunt, neque ratione.</p>
+                <div class="progress-bar">
+                    PROGRESS BAR
                 </div>
-                <div class="right">
-                    Right content
+                <div class="progress-bar">
+                    PROGRESS BAR
+                </div>
+                <div class="progress-bar">
+                    PROGRESS BAR
+                </div>
+            </div>
+            <div class="right">
+                <h2>Have any question?</h2>
+                <p>Lorem ipsum dolor sit amet consectetur <a href="mailto:20grupe@demoproject.lt">20grupe@demoproject.lt</a> Labore facilis in perferendis dolores quasi quidem quo illum quaerat dolor!</p>
+                <form class="form">
+                    MESSAGE FORM
+                </form>
             </div>
         </div>
     </main>
-
-  <footer class="container bg-main-color">
-<div class="row-long">
-    social
-</div>
-<div class="row-short">
-    Bottom content
-</div>
-  </footer>
-
-  <script src="./js/main.js"></script>
+    <footer class="container bg-main-color">
+        <div class="row-long">
+            <a href="#" target="_blank" class="fa fa-facebook"></a>
+            <a href="#" target="_blank" class="fa fa-twitter"></a>
+            <a href="#" target="_blank" class="fa fa-dribbble"></a>
+            <a href="#" target="_blank" class="fa fa-tumblr"></a>
+            <a href="#" target="_blank" class="fa fa-linkedin"></a>
+            <a href="#" target="_blank" class="fa fa-instagram"></a>
+            <a href="#" target="_blank" class="fa fa-rss"></a>
+        </div>
+        <div class="row-short">
+            <img src="./img/logo-white.png" alt="Logo">
+            <p>
+                <span>Copyright &copy; 2020 <a href="#">Matrox</a></span>
+                <span>All rights reserved</span>
+                <span>Designed by <a href="#" target="_blank">TrendyTheme</a></span>
+            </p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat ab, minus magnam ea <a href="#">200+</a> nulla laborum voluptatum <a href="#">Matrox</a> corrupti earum.</p>
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
 </body>
+
 </html>
