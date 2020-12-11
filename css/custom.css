@@ -1,0 +1,10 @@
+.bg-main-color {
+    background-color: orange;
+}
+div.container {
+    padding-bottom: 20px;
+}
+
+footer.container{
+    padding-top: 0;
+}
