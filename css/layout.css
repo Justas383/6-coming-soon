@@ -3,7 +3,6 @@ body{
     grid-template-columns: 1fr;
 }
 .container {
-    
     display: grid;
     grid-template-columns: 1fr 200px 600px 200px 1fr;
     padding: 40px 0;

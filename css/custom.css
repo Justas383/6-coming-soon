@@ -1,4 +1,4 @@
-/* basic */
+
 .bg-main-color {
     background-color: var(--main-color);
 }
@@ -126,4 +126,5 @@ footer.container {
         footer p > span + span::before {
             display: none;
         }
+
 }
