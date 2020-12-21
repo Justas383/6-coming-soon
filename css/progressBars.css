@@ -20,7 +20,7 @@
 }
 .progress-bar > .top > .value {
     display: inline-block;
-    float: right;
+    float: left;
 }
 .progress-bar > .bottom {
     display: inline-block;
