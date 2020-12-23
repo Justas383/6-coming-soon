@@ -7,14 +7,18 @@ import {renderSocials} from './components/socials/renderSocials.js'
 import {Clock} from './components/clock/clock.js'
 
 
-const clock = new Clock
-console.log(clock)
+const clock = new Clock('.hero .clock');
+if (clock.isValidSelector()){
+if (!clock.arBusMetines()){
+    clock.atnaujintiInformacija();
+}
+}
+console.log(clock);
+
 
 renderProgressBar('.left', progressBarData);
 
 renderSocials('footer > .row-long', socialsData);
 
-renderClock('.row-short > .clock', clockData)
 
-console.log('js is running here');
 
