@@ -62,12 +62,12 @@ class Clock {
         const jubiliejausMiliseconds = (new Date(this.dateString)).getTime();
         setInterval(() => {
         const now = Date.now();
-        const diff = jubiliejausMiliseconds - now;
+        let diff = jubiliejausMiliseconds - now;
         //todo: potenciali vieta klaidai, kai lieka 1 sekunde. gali rodyti -1 diena ar pan.
         if (diff < 0) {
             this.atnaujintiInformacija();
         jubiliejausMiliseconds = (new Date(this.dateString)).getTime();
-
+        diff = jubiliejausMiliseconds - now;
         }
 
         let secondsLeft = Math.floor(diff / 1000);
