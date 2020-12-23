@@ -8,13 +8,16 @@ import {renderSocials} from './components/socials/renderSocials.js'
 import {Clock} from './components/clock/clock.js'
 
 
-const clock = new Clock('.hero .clock');
-if (clock.isValidSelector()){
-if (!clock.arBusMetines()){
-    clock.atnaujintiInformacija();
-}
-}
-console.log(clock);
+const clock = new Clock('.hero .clock', {
+    month: 1,
+    day: 1, 
+    hour:0,
+    minutes: 0 
+});
+clock.init();
+
+const clock2 = new Clock('sadasda');
+clock2.init();
 
 
 renderProgressBar('.left', progressBarData);
