@@ -1,5 +1,5 @@
 class Clock {
-    constructor( selector){  
+    constructor(selector){  
         this.selector = selector;
         this.now = Date.now();
             this.deadline = {
@@ -25,7 +25,7 @@ class Clock {
         } 
         // kadangi pagal dabartinius metus metines yra praeityje, reikia atnaujinti metus ir per naujo perskaiciuiti
     atnaujintiInformacija(){
-        this.deadline++;
+        this.deadline.year++;
         this.dateString = this.createDateString();
     }
 
