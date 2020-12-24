@@ -5,6 +5,7 @@
 
 /* hero */
 .hero.container {
+  
     padding-bottom: 20px;
     background-image: url(../img/background.jpg);
     background-size: cover;
@@ -38,8 +39,17 @@
         .hero .clock {
             margin-bottom: var(--big-gap);
         }
-        .hero .form {
-            margin-bottom: var(--gap);
+
+       
+        .hero .forms {
+            width: 80%;
+           margin: 0 10% var(--gap);
+           background-color: transparent;
+        }
+        .hero .forms .input{
+            background-color: transparent;
+            color: white;
+            border-color: white;
         }
 
 /* main */
@@ -63,7 +73,10 @@ main p {
         main p > a:hover {
             text-decoration: underline;
         }
-
+        main .forms > button{
+            float: right;
+        } 
+       
 /* footer */
 footer.container {
     padding-top: 0;
@@ -126,5 +139,16 @@ footer.container {
         footer p > span + span::before {
             display: none;
         }
+
+}
+
+@media (min-width: 1200px){
+    main .forms > input.input{
+        width: 47%;
+        float:left;
+    }
+    main .forms > input.input +input.input{
+        margin-left: 6%;
+    }
 
 }
