@@ -1,8 +1,8 @@
-.forms {
+.form {
     display: inline-block;
     width: 100%;
 }
-.forms > .input {
+.form > .input {
     padding: 8px 0;
     display: inline-block;
     width: 100%;
@@ -15,11 +15,11 @@
     outline-color:var(--main-color) ;
     
 }   
-.forms textarea.input {
+.form textarea.input {
     min-height: 88px;
     max-height: 256px;
     resize: vertical;
 }
-.forms .input::placeholder{
+.form .input::placeholder{
     color:inherit;
 }

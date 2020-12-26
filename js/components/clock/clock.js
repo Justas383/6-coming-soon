@@ -18,7 +18,7 @@ class Clock {
             this.DOMminutes =null;
             this.DOMseconds =null;
     }
-    init () {
+    init() {
         if (this.isValidSelector()){
             this.findClockValuesElements();
             if (!this.arBusMetines()){

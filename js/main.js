@@ -7,6 +7,7 @@ import {renderSocials} from './components/socials/renderSocials.js'
 
 import {Clock} from './components/clock/clock.js'
 
+import {formValidation} from './components/form/formValidation.js'
 
 const clock = new Clock('.hero .clock', {
     month: 1,
@@ -24,5 +25,6 @@ renderProgressBar('.left', progressBarData);
 
 renderSocials('footer > .row-long', socialsData);
 
+formValidation();
 
 

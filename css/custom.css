@@ -41,12 +41,12 @@
         }
 
        
-        .hero .forms {
+        .hero .form {
             width: 80%;
            margin: 0 10% var(--gap);
            background-color: transparent;
         }
-        .hero .forms .input{
+        .hero .form .input{
             background-color: transparent;
             color: white;
             border-color: white;
@@ -73,7 +73,7 @@ main p {
         main p > a:hover {
             text-decoration: underline;
         }
-        main .forms > button{
+        main .form > button{
             float: right;
         } 
        
@@ -143,11 +143,11 @@ footer.container {
 }
 
 @media (min-width: 1200px){
-    main .forms > input.input{
+    main .form > input.input{
         width: 47%;
         float:left;
     }
-    main .forms > input.input +input.input{
+    main .form > input.input +input.input{
         margin-left: 6%;
     }
 
