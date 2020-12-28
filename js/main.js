@@ -17,8 +17,6 @@ const clock = new Clock('.hero .clock', {
 });
 clock.init();
 
-const clock2 = new Clock('sadasda');
-clock2.init();
 
 
 renderProgressBar('.left', progressBarData);
